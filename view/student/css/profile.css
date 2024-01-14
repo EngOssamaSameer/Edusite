@@ -1,0 +1,68 @@
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+
+
+/* Main */
+.main {
+    margin-top: 2%;
+    margin-left: 25%;
+    font-size: 28px;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+.main .card table {
+    border: none;
+    font-size: 16px;
+    height: 270px;
+    width: 80%;
+}
+
+.edit {
+    position: absolute;
+    right: 4%;
+    top: 20px;
+    color: #2878EB;
+}
+.edit:hover{
+    color: #1154b6;
+}
+form.user .select-user {
+    font-size: .8rem;
+      border-radius: 10rem;
+      padding: 1.5rem 1rem;
+      display: block;
+      width: 100%;
+      height: calc(1.5em + 0.75rem + 2px);
+      padding: 0.375rem 0.75rem;
+      font-weight: 400;
+      line-height: 2.5;
+      color: #6e707e;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #d8d9e3;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  form.user .select-user::after {
+    border: 2px solid #aaaed7;
+
+  }
+
+
